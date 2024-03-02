@@ -1,0 +1,88 @@
+/* banner-section */
+@media screen and (max-width:1199px) {
+    .banner-content h1{
+        font-size: 38px;        
+    }
+}
+@media screen and (max-width:640px){
+	.banner-content h1{
+		font-size: 30px;
+	}
+    .banner-img{
+        padding-bottom: 50px;
+    }
+}
+/* offer-section */
+@media screen and (max-width:991px){
+	.offer-content h2{
+		font-size: 35px;
+	}
+    .offer-content{
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width:640px){
+	.offer-content h2{
+		font-size: 30px;
+	}
+}
+/* choose-section */
+@media screen and (max-width:991px){
+	.choose-box{
+		padding-bottom: 70px;
+	}
+}
+/* project-section */
+@media screen and (max-width:991px){
+	.project-img img{
+		height: 400px;
+	}
+    .project-box{
+        padding-bottom: 50px;
+    }
+}
+/* team-section */
+@media screen and (max-width:991px){
+	.team-experiance{
+		margin-left: -25%;
+	}
+    .team-icon{
+        padding-bottom: 40px;
+    }
+    .team-content{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:640px){
+	.team-experiance{
+        margin-left: -50%;
+
+	}
+    .team-experiance h3{
+        font-size: 20px;
+    }
+    .team-experiance p{
+        font-size: 14px;
+    }
+}
+/* enterprize-section */
+@media screen and (max-width:991px){
+    .enterprize-box{
+        margin-bottom: 50px;
+    }
+}
+/* client-section */
+@media screen and (max-width:640px){
+	.client-detail{
+		padding: 0;
+	}
+    .review-box{
+        padding-bottom: 40px;
+    }
+}
+/* blog-section */
+@media screen and (max-width:991px){
+	.blog-box{
+		padding-bottom: 50px;
+	}
+}

@@ -1,0 +1,60 @@
+const myFunction = () => {
+    document.getElementById("first").style.display ='block';
+}
+const myFunctionclose = () => {
+    document.getElementById("first").style.display ='none';
+}
+
+// ---- my task page ----
+
+$('#item-box1').click(function(){
+    $('#myday-selected1').css('display','block');
+    $('#myday-selected2').css('display','none');
+    $('#myday-selected3').css('display','none');
+    $('#myday-selected4').css('display','none');
+});  
+  
+$('#item-box2').click(function(){
+    $('#myday-selected2').css('display','block');
+    $('#myday-selected1').css('display','none');
+    $('#myday-selected3').css('display','none');
+    $('#myday-selected4').css('display','none');
+}); 
+$('#item-box3').click(function(){
+    $('#myday-selected3').css('display','block');
+    $('#myday-selected1').css('display','none');
+    $('#myday-selected2').css('display','none');
+    $('#myday-selected4').css('display','none');
+});  
+  
+$('#item-box4').click(function(){
+    $('#myday-selected4').css('display','block');
+    $('#myday-selected1').css('display','none');
+    $('#myday-selected3').css('display','none');
+    $('#myday-selected2').css('display','none');
+}); 
+
+// -----project page upload project-------
+$('.high-pri-btn-ylo').click(function(){
+    $('#uplfile').toggle();
+});
+
+$('.close-btn').click(function(){
+    $('#uplfile').toggle();
+});
+
+
+
+//----------Mytask page----------
+
+// $('.task-item1.active').click(function(){
+//     $('#myday-selected').toggle();
+// });
+
+// $('.task-item2').click(function(){
+//     $('#important-selected').toggle();
+// });
+
+// $('.task-item3').click(function(){
+//     $('#assigned-selected').toggle();
+// });

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+/* Set core body defaults */
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+	overflow-x: hidden;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+	list-style: none;
+}
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*------- Theme CSS ----------*/
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 36px;
+	color: #483718;
+	font-weight: 400;
+}
+
+a {
+	color: #373737;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease
+}
+
+a:hover {
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	color: #373737;
+}
+
+.nav-item img{
+	height: 500px;
+    width: 100% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 800;
+	line-height: 1.2;
+	margin: 0 0 10px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+.button {
+	color: #FFF;
+	font-weight: 400;
+	padding: 0 15px;
+	line-height: 50px;
+	min-width: 200px;
+	border: 1px solid #ffffff;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 0;
+	font-size: 18px;
+
+}
+
+.button:hover {
+	background: #FFF;
+	border: 1px solid #483718;
+	color: #483718;
+}
+
+.button:focus,
+input:focus,
+.form-control:focus,
+button:focus {
+	outline: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+}

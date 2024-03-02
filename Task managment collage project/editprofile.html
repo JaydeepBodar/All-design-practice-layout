@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>edit profile</title>
+</head>
+
+<body class="editprofile">
+    <div class="main-wrapper-setting">
+        <div class="header-sec">
+            <nav class="navigation">
+                <div class="navigation-logo">
+                    <img src="img/icons/TMS-Logo-black.svg" class="nav-logo" alt="tms-logo.svg">
+                    <ul class="menu">
+                        <li class="nav-item"><span><img src="img/icons/Path 15.svg"></span><a href="#"
+                                class="nav-link active">Dashboard</a></li>
+                        <li class="nav-item"><span><img src="img/icons/Icon open-project.svg"></span><a href="#"
+                                class="nav-link">Projects</a></li>
+                        <li class="nav-item"><span><img src="img/icons/Icon awesome-tasks.svg"></span><a href="#"
+                                class="nav-link">My Tasks</a></li>
+                        <li class="nav-item"><span><img src="img/icons/Path 16.svg"></span><a href="#"
+                                class="nav-link">Calender</a></li>
+                        <li class="nav-item active"><span><img src="img/icons/Path 17.svg"></span><a href="#"
+                                class="nav-link">Settings</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="site-wrapper">
+            <div class="content-sec">
+                <section class="edit-profile-section">
+                    <div class="project-col-title">
+                        <h4>settings</h4>
+                    </div>
+                    <div class="profile-img-box">
+                        <div class="profile-img">
+                            <img src="img/team-3.jpg" alt="">
+                            <a href="#" class="del-btn">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                            <div class="upload-img">
+                                <label>upload new image</label>
+                                <input id="files" style="display: block;" type="file">
+                            </div>
+                        </div>
+
+                        <form class="changes-form">
+
+                            <div class="form-group">
+                                <label for="fname">first name</label>
+                                <input type="text" placeholder="first name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fname">last name</label>
+                                <input type="text" placeholder="last name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email id</label>
+                                <input type="email" placeholder="example@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="contact">contact</label>
+                                <input type="contact" placeholder="contact number">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">password</label>
+                                <input type="password" placeholder="Enter password">
+                            </div>
+                            <div class="form-btn">
+                                <a href="#" class="btn btn-lite">save changes</a>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

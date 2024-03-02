@@ -1,0 +1,124 @@
+$('#banner-slider').owlCarousel({
+    loop:true,
+    autoplay:true,
+    margin:10,
+    dots:true,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+$('#browse-slider').owlCarousel({
+    margin:10,
+    dots:false,
+    nav:false,
+    stagePadding:40,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            item:2
+        },
+        1000:{
+            items:3
+        },
+        1900:{
+            items:4
+        }
+    }
+});
+$('#excellent-slider').owlCarousel({
+    nav:true,
+    loop:true,
+    margin:30,
+    responsive:{
+        0:{
+            items:1
+        },
+        1000:{
+            items:2
+        },
+        1900:{
+            items:3
+        }
+    }
+});
+$('#detail-slider').owlCarousel({
+    margin:10,
+    nav:true,
+    stagePadding:40,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        },
+        1500:{
+            items:2
+        }
+    }
+});
+$('#detail-slider1').owlCarousel({
+    margin:10,
+    nav:true,
+    stagePadding:40,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:1
+        },
+        1500:{
+            items:2
+        }
+    }
+});
+$('#detail-slider2').owlCarousel({
+    margin:10,
+    nav:true,
+    stagePadding:40,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:1
+        },
+        1500:{
+            items:2
+        }
+    }
+});
+$(".mobile-navigation-toggle").click(function () {
+    $("body").toggleClass("menu-open");
+});
+
+$('.close').on('click', function () {
+    $('body').removeClass("menu-open");
+}); 
+$(".switch-toggle-btn").click(function () {
+    $("body").toggleClass("toggle-open");
+});
+
+
+ 

@@ -1,0 +1,134 @@
+@media screen and (max-width:1199px) {
+    /* about-section */
+    .about-section .about-img-box .img-content .button {
+        padding: 15px 40px;
+    }
+    /* footer */
+    .site-footer .footer-icon i {
+        margin-right: 4px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    /* banner-section */
+    .banner-section .banner-detail p {
+        max-width: 80%;
+    }
+    /*customer-satisfaction-section */
+    .customer-satisfaction-section .customer-satisfaction-section-title p {
+        max-width: 80%;
+    }
+    .app-download-box p {
+        max-width: 70%;
+    }
+    .about-img-box .about-img::after {
+        left: 15% !important;
+    }
+    /* app-download-box */
+    .app-download-box {
+        max-width: 100%;
+    }
+    /* feature-box */
+    .feature-section .row {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body .button {
+        font-size: 13px;
+        padding: 15px 30px;
+    }
+    /* banner-section */
+    .banner-section .banner-detail p {
+        max-width: 100%;
+    }
+    /* customer-satisfaction-box */
+    .customer-satisfaction-section .customer-satisfaction-section-title p {
+        max-width: 100%;
+    }
+    /* about-section */
+    .about-img-box .about-img::after {
+        left: 19% !important;
+    }
+    /* footer-section */
+    .footer-form .contact-form .form-btn .btn {
+        font-size: 13px;
+    }
+    .app-download-box .button {
+        font-size: 13px;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    /* .customer-satisfaction-section */
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(1) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(2) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(3) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(4) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(5) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(6) .customer-box .customer-content:before {
+        left: -7% !important;
+    }
+    /* .about-section  */
+    .about-section .about-img-box .img-content .button {
+        padding: 15px 25px;
+    }
+    /* footer */
+    .footer-end p {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    /* navigation */
+    .site-header .toggle-nav {
+        max-width: 70%;
+    }
+    .site-nav .toggle-nav {
+        width: 40%;
+    }
+    /* about-section */
+    .about-img-box .about-img::after {
+        left: 27%;
+    }
+    .about-img-box .about-img::after {
+        left: 26% !important;
+    }
+    /* footer */
+    .app-download-box p {
+        max-width: 100%;
+    }
+    .app-download-box .button {
+        padding: 15px;
+    }
+    .footer-end p {
+        max-width: 90%;
+    }
+    .app-download-box .button {
+        display: block;
+        padding: 0;
+        width: 50%;
+        margin: 5px auto !important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    /* customer-satisfaction-section */
+    .customer-content {
+        padding-left: 16px;
+    }
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(1) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(2) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(3) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(4) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(5) .customer-box .customer-content:before,
+    .customer-satisfaction-section .col-lg-4.col-md-6:nth-child(6) .customer-box .customer-content:before {
+        top: 23% !important;
+    }
+    /* about-section */
+    .about-section .about-img-box .img-content .button {
+        padding: 15px 11px;
+    }
+}

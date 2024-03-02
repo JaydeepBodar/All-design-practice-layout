@@ -1,0 +1,235 @@
+@media screen and (max-width:1024px){
+    .price-box{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:1199px){
+    /* price-section */
+    .price-section{
+        padding: 32px 0;
+    }
+    .price-section .container{
+        flex-direction: column;
+        align-items: flex-start;
+    } 
+    .price-box{
+        padding-top: 14px;
+    }
+    /* arrivel-section */
+    .arrivel-card-box{
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width:767px){
+    /* banner-section */
+    /* .banner-title{
+      display: none;
+    } */
+    .banner-title h4{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .banner-title h1{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .banner-title h3{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    /* section-title */
+    .section-title h6{
+        font-size: 10px;
+    }
+    .section-title h2{
+        font-size: 24px;
+    }
+    /* categories-section */
+    .categories-section{
+        padding: 32px 0;
+    }
+    .categories-section .row {
+        margin-top: 32px;
+    }
+    .categories-img {
+        margin-bottom: 8px;
+    }
+    .categories-box {
+        margin-bottom: 20px;
+    }
+    /* price-section */
+    .price-section{
+        padding: 32px 0;
+    }
+    .price-content-low,.price-content-medium,.price-content-normal,.price-content-high{
+        padding: 12px 15px;
+        border-radius: 10px;
+    }
+    .price-box h5{
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .price-box h4{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .price-content-low{
+        border-top:16px solid #326269;
+    }
+    .price-content-medium{
+        border-top:16px solid #4E5D6D;
+    }
+    .price-content-normal{
+        border-top:16px solid #66536A ;
+    }
+    .price-content-high{
+        border-top:16px solid #8C5072;
+    }
+    /* wedding-box */
+    .wedding-collection-secion{
+        padding: 32px 0;
+    }
+    .wedding-img-content1,.wedding-img-content2,.wedding-img-content3,.wedding-img-content4,.wedding-img-content5{
+        padding: 6px 0;
+        bottom: 12px;
+    }
+    .wedding-box h5{
+        font-size: 16px;
+    }
+    .wedding-collection-box{
+        margin-top: 32px;
+    }
+    .weddimg-wrapper{
+        margin-top: 16px;
+        grid-gap: 16px;
+    }
+    .weddimg-wrapper .weddimg-subwrapper {
+        grid-gap: 16px;
+    }
+    /* new-arrivel-section */
+    .new-arrivel-section{
+        padding: 32px 0;
+    }
+    .arrivel-card-box{
+        padding-top: 32px;
+
+    }
+    .card-rating {
+        padding-top: 16px;
+    }
+    .card-content h5 {
+        padding-top: 8px;
+    }
+    .arrivel-price {
+        padding-top: 8px;
+    }
+    .view {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .view .button1 i{
+        width: 16px;
+        height: 16px;
+        font-size: 7px;
+        text-align: center;
+        padding: 5px 7px;
+        line-height: 7px;
+    }
+    .arrivel-card h5{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .arrivel-price a{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .arrivel-price p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* categories-section */
+    .categories-box h4{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* founder-section */
+    .founder-section .name-info .block-btn{
+        padding-left: 16px;
+    }
+    .founder-info p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .founder-info h2{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .name-info .founder-name h4{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .name-info .founder-name p{
+        font-size: 8px;
+        line-height: 9px;
+    }
+    .founder-name {
+        padding-right: 19px;
+    }
+    .founder-section .block-title{
+        padding: 32px 0 16px;
+    }
+    .founder-section .founder-img {
+        padding: 0;
+    }
+    /* .block-btn a.button1 {
+        padding: 5px 6px;
+        line-height: 12px;
+        text-align: center;
+        font-size: 13px;
+    } */
+    .block-btn .button1 i{
+        width: 16px;
+        height: 16px;
+        font-size: 7px;
+        text-align: center;
+        padding: 5px 7px;
+        line-height: 7px;
+    }
+    .founder-info{
+        padding-left: 0;
+    } 
+    .founder-section .founder-img img{  
+        width: 121px;
+        height: 180px;
+
+    }
+    .founder-info .block-title h2{
+        margin-bottom: 8px;
+    }
+    .quote{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .quote-location{
+        font-size: 12px;
+    }
+    /* customer-section */
+    #customers-slider .owl-dots .owl-dot{
+        margin: 4px;
+        width: 6px;
+        height: 6px;
+    }
+    #customers-slider {
+        padding-top: 24px;
+    }
+    .customer-section{
+        padding: 32px 0;
+    }
+    #customer-slid{
+        padding: 20px;
+    }
+    #customers-slider .owl-dots{
+        padding-top: 16px;
+    }
+}

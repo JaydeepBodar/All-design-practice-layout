@@ -1,0 +1,13 @@
+@media screen and (max-width:768px){
+    .sustain_boyAnim .elementor-image {
+    position:relative;
+}
+.sustain_boyAnim .elementor-widget-container .elementor-image img{
+    height: 130px ;
+    width: 180px;
+    position: absolute;
+    right: 630px;
+    top:20px;
+    background-size: cover;
+}
+}

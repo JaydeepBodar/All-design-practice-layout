@@ -1,0 +1,148 @@
+@media screen and (max-width:1440px){
+    /* login-page */
+    .login-section .container::after{
+        right: 25%;
+        bottom: 0;
+    }
+    .login-form::before{
+        left: -26%;
+    }
+    .login-section .container::before{
+        top: 30%;
+        left: 23%;
+    }
+    /* registration-page */
+    .registration-section .container::after{
+        right: 22%;
+    }
+}
+@media screen and (max-width:1199px){
+    /* login-page */
+    .google-login, .facebook-login,.form-group{
+        width: 80%;   
+    }
+    .form-btn{
+        margin: 0 auto;
+        width: 53%;
+    }
+    .login-option::before{
+        left: 27%;
+        width: 75px;
+    }
+    .login-option::after{
+        right: 27%;
+        width: 75px;
+    }
+    /* registration-page */
+    .register-option::before{
+        left: 27%;
+        width: 90px;
+    }
+    .register-option::after{
+        right: 27%;
+        width: 90px;
+    }
+    .form-btn .btn.btn-success,.reg-btn .btn.btn-success{
+        padding: 12px 75px;
+    } 
+}
+@media screen and (max-width:1024px){
+    /* login-page */
+    .login-section .container::before{
+        left: 18%;
+    }
+    .login-section .container::after{
+        right: 21%;
+    }
+    .login-form::before{
+        left: -30%;
+    }
+    /* registration-page */
+    .registration-form::before{
+        left: -27%
+    }
+    .registration-section .container::before{
+        left: 15%;
+    }
+    .registration-section .container::after{
+        right: 17%;
+    }
+}
+@media screen and (max-width:991px) {
+    .login-box{
+        width: 70%;
+    }
+    .registration-box{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    .login-box{
+        width: 80%;
+    }
+    .login-section .container::after{
+        right: 15%;
+    }
+    .login-section{
+        overflow: hidden;
+    }
+    .main-wrapper-login .nav-item,.main-wrapper .nav-item{
+        margin-bottom: 10px;
+    }
+    .login-option::before{
+        left: 30%;
+        width: 60px;
+    }
+    .login-option::after{
+        right: 30%;
+        width: 60px;
+    }
+    .form-btn .btn.btn-success{
+        padding: 12px 50px;
+    }
+    .login-option::before {
+        left: 29%;
+        width: 50px;
+    }
+    .login-option::after{
+        right:29%;
+        width: 50px;
+    }
+    /* registration */
+    .registration-box{
+        width: 80%;
+    }
+    .google-login, .facebook-login,.form-group{
+        width: 100%;
+    }
+    .reg-group{
+        width: 100%;
+    }
+    .registration-cont{
+        flex-direction: column;
+    }
+    .form-group input,.reg-group input{
+        padding: 10px;
+    }
+    .form-group label,.reg-group label{
+        font-size: 14px;
+    }
+    .form-group ::placeholder,.reg-group ::placeholder{
+        font-size: 14px;
+    }
+    .reg-btn .btn.btn-success{
+        padding: 12px 50px;
+        margin-left: 50px;
+    }
+    .registration-form::before{
+        left: -32%;
+    }
+    .register-option::before {
+        left: 21%;
+        width: 75px;
+    }
+    .register-option::after {
+        right: 21%;
+        width: 75px;
+    }
+}

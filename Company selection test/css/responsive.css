@@ -1,0 +1,213 @@
+@media screen and (max-width:1440px){
+        /* review=section */
+        .owl-nav{
+            right: -90px;;
+        }
+}
+@media screen and (max-width:1199px){ 
+     /*   banner-section  */
+    .banner-content{
+        top: 200px;
+    }
+    /* digital-solution-section */
+    .digital-solution-img{
+        top: -184px;
+    }
+    .digital-solution-img img {
+        height: 658px;
+    }
+    /* team-section */
+    .team-overlay {
+        height: 62%;
+    }
+    .team-img:hover .team-overlay {
+        width: 87%;
+    }
+}
+@media screen and (max-width:1024px){
+    .review-box{
+        margin: 0 80px;
+    }
+    .owl-nav {
+        right: -12px;
+    }
+}
+@media screen and (max-width:991px){
+    /* header-section */
+    .site-nav .logo {
+        justify-content: flex-start;
+    }
+    /* digital-solution-box */
+    .digital-solution-img{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .digital-solution-img img{
+        width: 100%;
+        padding-top: 50px;
+    }
+    /* team-section */
+    .team-img:hover .team-overlay {
+        width: 92%;
+    }
+    .team-overlay {
+        height: 78%;
+    }
+    /* news-section */
+    .news-box{
+        margin-bottom: 25px;
+    }
+    /* review-section */
+    .owl-nav{
+        right: -50px;
+        font-size: 43px;
+    }
+    .review-box{
+        margin: 0;
+    }
+    /* blog-section */
+    .blog-box{
+        margin-bottom: 25px;
+    }
+    /* footer-section */
+    .footer-box{
+        margin-bottom: 25px;
+    }
+    .footer-box .row{
+        justify-content: flex-start;
+    }
+    /* team-section */
+    .team-box{
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width:768px){
+    /* section-title */
+    .section-title p {
+        max-width: 95%;
+    }
+    /* team-section */
+    .team-img:hover .team-overlay {
+        width: 95%;
+    }
+    .team-overlay {
+        height: 84%;
+    }
+    /* project-section */
+    .owl-theme .owl-dots .owl-dot span{
+        margin: 5px 30px;
+    }
+    /* review-section */
+
+    /* footer-section */
+    .footer-end{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:575px){
+    /* review-section */
+    .owl-nav{
+        bottom: -82%;
+        right: 72%;
+    }
+    .review-box{
+        margin: 0 40px;
+    }
+    .owl-theme .owl-dots .owl-dot {
+        width: 10px;
+        height: 10px;
+        margin: 5px 10px;
+    }
+}
+@media screen and (max-width:480px){
+    /* header-section */
+    .site-header .item-box .item{
+		display: none;
+	}
+    .site-nav{
+        position: relative;
+    }
+    .bar-icon{
+        display: block;
+    }
+    .menu-open .site-header .site-nav .item{
+		position: absolute;
+		display: block;
+		flex-direction: column;
+		top: 5px0;
+		right: 0;
+		z-index: 2;
+		padding: 10px;
+		width: 100%;
+		background-color: #662d91;
+		align-items: center;
+		overflow: auto;
+		max-width: 100%;
+	} 
+    /* banner-section */
+    .banner-section .banner-content h1{
+        font-size: 55px;    
+    }
+    .banner-content{
+        max-width: 85%;
+    }
+    /* field-section */
+    .field-section .border span {
+        left: 30%;
+    }
+    /* digital-solution-section */
+    .digital-solution-btn{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+    .digital-solution-btn .button{
+        margin-bottom: 15px;
+        width: 74%;
+    }
+    /* review-section */
+    .owl-nav{
+        right: 86%;
+    }
+    .review-box {
+        margin: 0 10px;
+    }
+    /* prject-section */
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 5px 15px;
+    }
+    .project-content p{
+        max-width: 80%;
+    }
+    /* footer */
+    .footer-email{
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+    .footer-email .button{
+        width: 40%;
+        margin-top: 15px;
+    }
+    .footer-box input{
+        width: 80%;
+    }
+    .footer-email .button {
+        width: 55%;
+    }
+}
+@media screen and (max-width:375px){
+        /* field-section */
+        .field-section .border span {
+            left: 40%;
+        }
+        /* footer */
+        .footer-email .button {
+            width: 60%;
+        }
+}
+@media screen and (max-width:280px){
+    .footer-email .button {
+        width: 72%;
+    }
+}

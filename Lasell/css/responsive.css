@@ -1,0 +1,149 @@
+/* navigation */
+@media screen and (max-width:1440px){
+    .mission-img img{
+        width: 100%;
+        height: 100vh;
+    }
+}
+@media screen and (max-width:1199px){
+    /* mission-section*/
+    .mission-title p,.vision-content p{
+        line-height: 30px;
+    }
+    .vision-content{
+        line-height: 50px !important;
+    }
+    /* about-section */
+    .about-title h2{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .about-content p{
+        line-height: 30px;
+    }
+    /* who-section */
+    .who-title h2{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .who-img .img-content h3,.who-img1 .img-content h3{
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .who-img .img-content p,.who-img1 .img-content p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .who-img1 img{
+        height: 500px !important;
+        object-fit: cover;
+    }
+    .who-img img{
+        height: 237px !important;
+    }
+    /* what-section */
+    .what-title h2{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    /* information-section */
+    .information-title h2{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .information-content p{
+        font-size: 16px;
+        line-height: 24px;
+    }    
+    .information-img img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .site-nav .logo h2::before{
+        left: 2%;
+    }
+    /* mission-section */
+    .mission-title p,.vision-content p{
+        font-size: 14px;
+    }
+    /* about-section */
+    .about-title h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .about-title p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .about-content{
+        padding-top: 40px;
+        font-size: 14px;
+    }
+    .about-content p{
+        line-height: 35px;
+    }
+    /* who-title */
+    .who-title h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    /* what-title */
+    .what-title h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    /* what-title */
+    .information-title h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    /* site-footer */
+    .site-footer .logo h2::before{
+        top: 22%;
+    }
+    .footer-box{
+        padding: 20px 0px;
+    }
+    .footer-end-content{
+        font-size: 14px;
+    }
+    .footer-logo{
+        padding: 20px 0;
+    }
+    .footer-link-end ul{
+        padding: 0;
+    }
+}
+@media screen and (max-width:767px){
+    .site-header{
+        overflow: hidden;
+    }
+    /* mission-section */
+    .mission-box{
+        padding: 50px 50px 20px 80px !important;
+    }   
+    /* who-section */
+    .who-img .img-content,.who-img1 .img-content{
+        width: 50% !important;
+    }
+    /*what-section*/
+    .footer-box{
+        padding: 12px 0px;
+    }
+    .footer-end-content{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:480px){
+    /* mission-section */
+    .mission-box{
+        padding: 50px 10px 20px 30px !important;
+    }   
+    /* about-section */
+    .about-content p{
+        line-height: 30px;
+    }
+}

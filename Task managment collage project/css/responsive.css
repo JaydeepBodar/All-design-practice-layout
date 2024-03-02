@@ -1,0 +1,623 @@
+@media screen and (max-width:1900px) {
+    /* login-page */
+    .login-box .f-password {
+        padding-left: 70px;
+    }
+    .login-form::before,
+    .forgot-form::before {
+        top: 73%;
+        left: -28%;
+    }
+    .login-section .container::after,
+    .forgot-password-section .container::after {
+        right: 32%;
+        top: 55%;
+    }
+    .login-section .container::before,
+    .forgot-password-section .container::before {
+        left: 29%;
+        top: 21%;
+    }
+    .login-box,
+    .forgot-box,
+    .registration-box {
+        margin-top: 110px;
+    }
+    /* registration-form */
+    .registration-form::before {
+        top: 73%;
+    }
+    .registration-section .container::after {
+        left: 64%;
+        top: 63%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    /* login-page forgot-password-page*/
+    .login-section .container::before,
+    .forgot-password-section .container::before {
+        left: 25%;
+    }
+    .login-form::before,
+    .forgot-form::before {
+        top: 70%;
+    }
+    .login-section .container::after,
+    .forgot-password-section .container::after {
+        right: 29%;
+        top: 60%;
+    }
+    /* registration-box */
+    .registration-section .container::after {
+        left: 66%;
+        top: 70%;
+    }
+    /* ----Dashboard---- */
+    .searchbar {
+        max-width: 94%;
+    }
+    .calender-box {
+        width: 80%;
+        margin: 0;
+    }
+    .del-btn i {
+        left: 80px;
+    }
+    /* 08-03-2022
+    editprofile */
+    .del-btn i.fas.fa-trash-alt {
+        left: 11%;
+        top: 70%;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    /* login-page forgot-password-page*/
+    .login-section .container::after,
+    .forgot-password-section .container::after {
+        right: 26%;
+        top: 68%;
+    }
+    .login-form::before,
+    .forgot-form::before {
+        left: -26%;
+    }
+    .login-section .container::before,
+    .forgot-password-section .container::before {
+        top: 30%;
+        left: 23%;
+    }
+    /* registration-page */
+    .registration-section .container::after {
+        left: 68%;
+    }
+    /* ----Dashboard---- */
+    .searchbar {
+        max-width: 100%;
+    }
+    .calender-box {
+        width: 100%;
+    }
+    /* setting-page */
+    .profile-img-box {
+        max-width: 45%;
+    }
+    /* 08-03-2022
+    editprofile */
+    .del-btn i.fas.fa-trash-alt {
+        left: 16%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    /* login-page forgot-password-page */
+    .login-box,
+    .forgot-box,
+    .registration-box {
+        margin-top: 0;
+    }
+    .login-box .f-password {
+        padding-left: 0;
+    }
+    .login-section .container::after,
+    .forgot-password-section .container::after {
+        top: 85%;
+    }
+    .google-login,
+    .facebook-login,
+    .form-group {
+        max-width: 100% !important;
+    }
+    .login-box .form-group,
+    .forgot-box .form-group {
+        max-width: 100% !important;
+    }
+    .login-option::before {
+        left: 27%;
+        width: 64px;
+    }
+    .login-option::after {
+        right: 27%;
+        width: 64px;
+    }
+    /* registration-page */
+    .register-option::before {
+        left: 27%;
+        width: 90px;
+    }
+    .register-option::after {
+        right: 27%;
+        width: 90px;
+    }
+    .login-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success,
+    .registration-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success,
+    .forgot-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success {
+        padding: 12px 50px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    /* login-page forgot-password-page*/
+    .login-section .container::before,
+    .forgot-password-section .container::before {
+        left: 18%;
+    }
+    .login-section .container::after,
+    .forgot-password-section .container::after {
+        right: 21%;
+    }
+    .login-form::before,
+    .forgot-form::before {
+        left: -30%;
+    }
+    /* registration-page */
+    .registration-form::before {
+        left: -27%
+    }
+    .registration-section .container::before {
+        left: 5%;
+    }
+    .registration-section .container::after {
+        left: 70%;
+    }
+    /* ----Dashboard---- */
+    .calender-box {
+        width: 100%;
+        padding: 15px;
+    }
+    .calender th,
+    .calender td {
+        padding: 0;
+    }
+    table.calender {
+        margin: 0;
+    }
+    .project-icon {
+        display: flex;
+    }
+    .searchbar-profile img {
+        width: 25px;
+        height: 25px;
+    }
+    /* -----edit profile---- */
+    .del-btn i {
+        left: 80px;
+    }
+    .upload-img {
+        padding: 0;
+        width: 200px;
+    }
+    .profile-img .upload-img input#files {
+        width: 200px;
+    }
+    /* 08-03-2022
+    editprofile */
+    .del-btn i.fas.fa-trash-alt {
+        left: 16%;
+    }
+    .profile-img-box {
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    /* registration page */
+    .registration-box {
+        width: 70%;
+    }
+    .reg-group {
+        width: 100%;
+    }
+    .registration-cont {
+        flex-direction: column;
+    }
+    .register-option::after {
+        right: 23%;
+    }
+    .register-option::before {
+        left: 23%;
+    }
+    .registration-section .container::after {
+        left: 66%;
+    }
+    /* login page forgot-password-box */
+    .login-box,
+    .forgot-box {
+        width: 70% !important;
+    }
+    /* ----Dashboard---- */
+    .calender-box {
+        padding: 30px 35px 15px;
+    }
+    table.calender {
+        margin: 0;
+    }
+    .calender th,
+    .calender td {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .login-box,
+    .forgot-box {
+        width: 80%;
+    }
+    .forgot-password-section .container::after {
+        top: 60%;
+    }
+    .login-section .container::after {
+        right: 20%;
+        top: 80%;
+    }
+    .login-section,
+    .forgot-password-section {
+        overflow: hidden;
+    }
+    .login-form::before,
+    .forgot-form::before {
+        left: -37%;
+    }
+    .main-wrapper-login .nav-item,
+    .main-wrapper .nav-item {
+        margin-bottom: 10px;
+    }
+    .login-option::before {
+        left: 20%;
+        width: 60px;
+    }
+    .login-option::after {
+        right: 20%;
+        width: 60px;
+    }
+    .login-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success,
+    .forgot-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+    /* registration */
+    .form-group input,
+    .reg-group input {
+        padding: 10px;
+    }
+    .form-group label,
+    .reg-group label {
+        font-size: 14px;
+    }
+    .form-group ::placeholder,
+    .reg-group ::placeholder {
+        font-size: 14px;
+    }
+    .registration-form::before {
+        left: -30%;
+        height: 300px;
+        width: 80px;
+    }
+    .register-option::before {
+        left: 21%;
+        width: 62px;
+    }
+    .register-option::after {
+        right: 21%;
+        width: 62px;
+    }
+    .registration-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success {
+        padding: 10px 35px;
+        font-size: 14px;
+    }
+    .registration-section .container::after {
+        left: 63%;
+    }
+    /* ----Dashboard---- */
+    .calender th,
+    .calender td {
+        padding: 5px;
+    }
+    .searchbar-profile img {
+        width: 20px;
+        height: 20px;
+    }
+    .searchbar-profile .profile-img img {
+        width: 25px;
+        height: 25px;
+    }
+    /* ----projects create new task click event---- */
+    .tasks-add-btn-hovr form.create-nt {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .tasks-add-btn-hovr input.tname,
+    input.deadline {
+        width: 315px;
+    }
+    .tasks-add-btn-hovr select.assignto {
+        width: 315px;
+    }
+    .tasks-add-btn-hovr .cnt-btn {
+        width: 40%;
+    }
+    /* -----edit profile---- */
+    .del-btn i.fas.fa-trash-alt {
+        top: 85px;
+        left: 80px;
+    }
+    .upload-img {
+        padding: 10px 0 0;
+    }
+    .profile-img .upload-img input#files {
+        width: 180px;
+    }
+    /* 08-03-2022
+    editprofile */
+    .profile-img-box {
+        max-width: 75%;
+    }
+    .editprofile .profile-img-box .profile-img {
+        display: block;
+    }
+    /* cntask page */
+    .createnewpro-section .create-section-title,
+    .createnewtask-section .create-section-title {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    /* log-in page-forgot-password-section */
+    .forgot-password-section .container::after {
+        left: 70%;
+    }
+    .forgot-password-section .container::before {
+        left: 5%;
+    }
+    .login-box,
+    .forgot-box {
+        padding: 20px 10px !important;
+    }
+    .login-box,
+    .forgot-box {
+        width: 70%;
+    }
+    .login-option::after,
+    .login-option::before {
+        width: 60px;
+    }
+    .login-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success,
+    .registration-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success,
+    .forgot-box .form-btn .btn.btn-success,
+    .reg-btn .btn.btn-success {
+        padding: 10px 20px;
+    }
+    .login-section .container::after {
+        right: 9%;
+    }
+    /* registration-form */
+    .registration-form::before,
+    .login-form::before,
+    .forgot-form::before {
+        left: -23%;
+        height: 260px;
+        width: 70px;
+    }
+    .registration-section .container::before,
+    .login-section .container::before,
+    .forgot-password-section::before {
+        left: 5%;
+    }
+    .registration-section .container::after {
+        left: 70%;
+    }
+    .register-option::after,
+    .register-option::before {
+        width: 65px;
+    }
+    /* ----Dashboard---- */
+    input.serach-bar {
+        width: 150px;
+    }
+    /* ----Dashboard end---- */
+    /* ----projects create new task click event---- */
+    .tasks-add-btn-hovr form.create-nt {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .tasks-add-btn-hovr input.tname,
+    input.deadline {
+        width: 215px;
+    }
+    .tasks-add-btn-hovr select.assignto {
+        width: 215px;
+    }
+    .tasks-add-btn-hovr .cnt-btn {
+        width: 70%;
+    }
+    /* 08-03-2022
+    edit-profile */
+    .profile-img img {
+        width: 70px;
+        height: 70px;
+    }
+    .navigation-logo {
+        max-width: 190px;
+    }
+    .content-sec {
+        margin: 0 0 0 200px;
+        max-width: 100%;
+    }
+    .profile-img {
+        display: block !important;
+    }
+    .del-btn i.fas.fa-trash-alt {
+        top: 40%;
+        left: 25%;
+    }
+    .editprofile .profile-img-box {
+        max-width: 80%;
+    }
+    /* cntask and cnproj */
+    .createnewpro-section .createnewproject-block .form-group,
+    .createnewtask-section .createnewtask-block .form-group {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    /* log-in page-forgot-password*/
+    .forgot-password-section .container::after {
+        left: 66%;
+    }
+    .login-box,
+    .forgot-box {
+        padding: 20px 10px !important;
+    }
+    .google-login,
+    .facebook-login {
+        margin: 0px auto 10px;
+    }
+    .login-option::after,
+    .login-option::before {
+        width: 40px;
+    }
+    /* registration-box */
+    .login-form::before,
+    .registration-form::before,
+    .forgot-form::before {
+        left: -22%;
+        height: 190px;
+        width: 53px;
+    }
+    .register-option::before {
+        left: 23%;
+        width: 65px;
+    }
+    .register-option::after {
+        width: 65px;
+        right: 23%;
+    }
+    .registration-box {
+        padding: 20px 15px;
+    }
+    .registration-section .container::after {
+        left: 66%;
+    }
+
+/*  08-03-2020
+    edit profile */
+
+.navigation-logo .menu .nav-item {
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+.navigation-logo {
+    max-width: 50px;
+    overflow: hidden;
+}
+
+.navigation-logo img.nav-logo {
+    margin: 0 !important;
+    padding: 40px 5px 60px;
+}
+
+.site-wrapper .content-sec {
+    margin: 0 0 0 60px;
+    max-width: 390px;
+}
+
+.profile-img-box {
+    max-width: 90%;
+    margin: 15px auto;
+}
+
+.profile-img-box {
+    max-width: 90%;
+    margin: 15px auto;
+}
+
+.profile-img img {
+    height: 70px;
+    width: 70px;
+}
+
+.profile-img-box .profile-img {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+i.fas.fa-trash-alt {
+    top: 65px !important;
+    left: 70px !important;
+}
+
+
+}
+@media screen and (max-width:355px) {
+    /* login forgot-password-section */
+    
+    .login-form::before,
+    .registration-form::before,
+    .forgot-form::before {
+        left: -23%;
+        height: 140px;
+        width: 40px;
+    }
+    
+    .forgot-password-section .container::after {
+        left: 60%;
+    }
+    
+    .login-option::after,
+    .login-option::before {
+        width: 30px;
+    }
+    
+    .forgot-password-section .container::after {
+        top: 60%;
+    }
+    /* registration-form */
+    
+    .register-option::before,
+    .register-option::after {
+        width: 42px;
+    }
+    .registration-section .container::after {
+        left: 58%;
+    }
+    /* edit-profile-section */
+    
+    section.edit-profile-section {
+        width: 340px;
+    }
+}

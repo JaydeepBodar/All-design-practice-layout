@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;800;700;900&display=swap');
+
+/* Remove default padding */
+
+ul[class],
+ol[class],
+ul,
+li {
+    padding: 0;
+}
+
+
+/* Remove default margin */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+
+/* Set core body defaults */
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+}
+
+
+/* Remove list styles on ul, ol elements with a class attribute */
+
+ul[class],
+ol[class],
+ul,
+li {
+    list-style: none;
+}
+
+
+/* Box sizing rules */
+
+ *,
+F*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*------- Theme CSS ----------*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 36px;
+    color: #000;
+    font-weight: 400;
+}
+
+a {
+    color: #000;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+a:hover{
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    color: #FFF;
+}
+
+img {
+    height: auto;
+    max-width: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.button {
+    color: #FFF;
+    font-weight: 400;
+    line-height: 50px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    background-color: #E6615A;
+    padding: 20px 30px;
+    border-radius: 40px;
+}
+
+.button:hover {
+    background-color: #413C31;
+    color: #fff;
+}
+
+.button:focus,
+input:focus,
+.form-control:focus,
+button:focus {
+    outline: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+}
+/*  navigation-menu */
+.site-header{
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+.site-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #E6615A;
+    z-index: 1;
+}
+.site-nav a{
+    color: #E6615A;
+}
+.site-nav .logo span{
+    font-size: 40px;
+}
+.site-nav .nav-item{
+    display: flex;
+    justify-content: space-around;
+    padding:15px 0 0 100px;
+    align-items: baseline;
+}
+.site-nav .nav-item a:hover{
+    color: #FFF;
+}
+/* banner-section */
+.banner-section{
+    background-image: url("../image/wedding-04.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-section .item{
+    padding: 200px 0 100px;
+    width: 850px;
+    color: #413C31;
+}
+.banner-section .item span{
+    color: #E6615A;
+}
+.owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 20px;
+    margin: 5px 7px;
+    background: #000;
+    display: block;
+    /* -webkit-backface-visibility: visible; */
+    transition: opacity .2s ease;
+    border-radius: 30px;    
+}
+.owl-dots{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.owl-theme .owl-dots .owl-dot span:hover{
+    background-color: #E6615A;
+}
+.banner-icon{
+    position: relative;
+    top:37px;
+    text-align: center;
+    z-index: 1;
+}
+.banner-section .banner-icon .banner-icon-img::before {
+    content: "";
+    position: absolute;
+    bottom: 37px;
+    left: 320px;
+    width: 500px;
+    height: 1px;
+    background-color: #413C31; 
+    z-index: -1;
+}
+/* plane-section */
+.plane-section{
+    padding: 150px 0;
+    position: relative;
+    background-color: #FDFDFF;
+}
+.plane-section .row::before{
+    content: " ";
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 700px;
+    border-radius: 50%;
+    height: 500px;
+    background-image: url("../image/769-7695208_burst-fire-light-flame-of-border-round-transparent.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title-img{
+    padding-bottom: 15px;
+}
+.plane-box{
+    margin-top: 20px;
+    background-color: #FFFDFE;
+}
+.section-title{
+    text-align: center;
+}
+.plane-content{
+    padding: 50px 15px;
+    text-align: center;
+    background-color: #F8D98F;
+}
+.plane-box h4:hover{
+    color: #fff;
+    transition: all .2s linear;
+}
+.plane-img{
+    padding: 20px;
+}
+/* bridemen-section */
+.Bridesman-img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+.Bridesman-box h4,.Bridesman-box1 h4{
+    padding-top: 15px;
+    text-align: center;
+}
+.Bridesman-box1{
+    padding-top: 170px;
+}
+.Bridesman-box1 .Bridesman-ring-img{
+    text-align: center;
+    padding-top: 50px;
+}
+.bridemen-section{
+    padding-bottom: 80px;
+}
+.bridemen-section .row{
+    padding-top: 30px;
+}
+/* about-section */
+.about-section{
+    background-image: linear-gradient(to bottom,rgba(247, 247, 247, 0.7),rgba(247, 247, 247, 0.7)), url("../image/Pink_flower_frame_background_with_watercolor.jpg");
+    background-size: cover;
+}
+.about-section .about-box{
+    padding-top:80px;
+}
+.about-section  .about-detail{
+    padding: 200px 0;
+}
+.about-img-box{
+    box-shadow: -20px 22px  #000;
+}
+.about-section .about-img-rotate{
+    transform: rotate(-30deg);
+}
+.about-section .about-content .button{
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.about-section .about-btn{
+    margin-top: 50px;
+}
+/* blog-section */
+.blog-section{
+    padding: 120px 0;
+    background-color: #EFEFEE;
+}
+.blog-section .section-title{
+    padding-bottom: 25px;
+}
+.blog-img-box{
+    position: relative;
+    height: 100%;
+}
+.blog-img-box img{
+    height: 417px;
+    width: 100%;
+} 
+.blog-img-detail{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    padding: 25px 25px 15px;
+    background-color: #E6615A;
+    color: #fff;
+}
+.blog-box{
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+.blog-section span{
+    color: gray;
+}
+.blog-box .blog-content span{
+    margin-bottom: 20px;
+}
+.blog-box .blog-content p{
+    color: #585858;
+}
+.blog-box .blog-content p,.blog-box .blog-content h3{
+    margin-bottom: 30px;
+}
+.blog-content a{
+    padding-right: 20px;
+}
+.blog-content a:hover{
+    color: #E6615A;
+}
+.blog-box,.blog-img-box{
+    margin-bottom: 40px;
+}
+/* review-section */
+.review-section{
+    background-color: #EFEFEE;
+    padding: 120px 0 120px;
+}
+.review-section .section-title{
+    position: relative;
+}
+.review-section .section-title h2::before{
+    position: absolute;
+    bottom: 8%;
+    left: 45%;
+    content: "";
+    width: 140px;
+    height: 2px;
+    background-color: #413C31;
+    margin: 0 auto;
+}
+.review-section .review-img img{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.review-section .review-img-content{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.review-section .review-img{
+    padding:80px 0px 30px;
+}
+.review-img-content h3{
+    margin-bottom: 20px;
+}
+.review-img-content p{
+    margin-bottom: 40px;
+}
+/* footer-box */
+.site-footer{
+    background-color: #181715;
+}
+.site-footer h1{
+    padding-top: 16px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-box i{
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #E6615A;
+    color: #E6615A;
+    margin: 20px 10px 0 0;
+}
+.footer-contact-detail{
+    background-color: #FFF;
+    padding: 30px 0;
+    position: relative;
+    top: -50px;
+}
+.footer-contact-box .form-group input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #757575;
+    width: 100%;
+}
+.contact-form .txt-area{
+    padding-top: 25px;
+}
+.contact-form .form-btn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-form .button{
+    border-radius: 10px;
+    padding: 10px 40px;
+    line-height: 30px;
+}
+.footer-contact-box .footer-icon i{
+    color: #FFF;
+    font-size: 32px;
+    padding-right: 10px;
+}
+.footer-contact-box h2{
+    color: #FFF;
+}
+.footer-end{
+    padding-top: 50px;
+}
+.site-footer .copyright-detail{
+    padding: 10px 0;
+    margin: 0 auto;
+    color: #FFF;
+}
+.footer-box span{
+    font-size: 40px;
+}
+.location-box iframe{
+    width: 100%;
+    height: 350px;
+}
